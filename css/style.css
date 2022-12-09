@@ -5,15 +5,12 @@
     padding: 0;
 }
 .for-center{
-    width: 1440px;
-}
-.div-in-div{
-    max-width: 80%;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 
-header,
-main,
-footer {
+header, main, footer {
     margin-left: 121px;
 }
 
@@ -48,9 +45,6 @@ footer {
     font-weight: 400;
     font-size: 12px;
     line-height: 115%;
-    /* or 14px */
-
-
     color: #000000;
 
 }
