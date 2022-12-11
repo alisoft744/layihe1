@@ -4,14 +4,11 @@
     margin: 0;
     padding: 0;
 }
-.for-center{
-    width: 100%;
+
+.for-center {
+    width: 80%;
     max-width: 1440px;
     margin: auto;
-}
-
-header, main, footer {
-    margin-left: 121px;
 }
 
 .first-page-first-section {
@@ -31,11 +28,12 @@ header, main, footer {
 
 .navbar-items {
     display: flex;
+    align-items: center;
     margin-right: 55px;
 }
 
 .navbar-items img {
-    width: 12.74px;
+    width: 22.74px;
     margin-right: 10px;
 }
 
@@ -48,7 +46,8 @@ header, main, footer {
     color: #000000;
 
 }
-.main-first-section{
+
+.main-first-section {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -56,28 +55,6 @@ header, main, footer {
 
 .only-h1 {
     margin-top: 20px;
-}
-
-.ul-two,
-.ul-one {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-}
-
-.ul-one {
-    margin-bottom: 15px;
-}
-
-li {
-    margin-right: 25px;
 }
 
 h1 {
@@ -99,12 +76,10 @@ h1 {
     width: 414px;
     margin-top: 20px;
 
-
 }
 
 .first-section {
     display: flex;
-
 }
 
 .image-right {
@@ -118,11 +93,15 @@ h1 {
     background: #1E4681;
     border-radius: 5px;
     color: #ffffff;
-    margin-left: 237px;
     margin-bottom: 170px;
     margin-top: 39px;
     box-sizing: border-box;
-    
+
+}
+
+.for-box1 {
+    display: flex;
+    justify-content: center;
 }
 
 .box1-in {
@@ -138,16 +117,16 @@ h1 {
 }
 
 .box1-under {
-    width: 280.5px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
     text-align: right;
-    margin-left: 184px;
-}
+    padding-right: 19px;
 
+}
 
 .second-page-h2-first {
     font-family: 'Roboto Slab';
@@ -160,8 +139,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-
-
 .kurs {
     font-family: 'Roboto';
     font-style: normal;
@@ -172,7 +149,6 @@ h1 {
     color: #000000;
 }
 
-
 .second-main {
     display: flex;
 }
@@ -182,41 +158,36 @@ h1 {
     margin-left: 164px;
     width: 314px;
 }
+.div-for-box{
+    display: flex;
+    justify-content: center;
+}
 
 .second-page-footer {
     display: flex;
     margin-top: 94px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.ul-second-page {
-    margin-left: 132px;
-}
-.ul-two h4{
+.ul-two h4 {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 130%;
-/* or 32px */
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
 }
-.ul-two p{
+
+.ul-two p {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
-/* or 23px */
-
-
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
 }
-.ul-two li{
-    margin-right: 95px;
-}
+
 ol {
     list-style: none;
 }
@@ -231,15 +202,12 @@ ol {
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
-
-
     color: #1E4681;
 }
 
-.ol11,
-.ol12,
-.ol13 {
+.ol-ol {
     width: 271px;
+    margin-bottom: 15px;
 }
 
 .h22 {
@@ -252,10 +220,7 @@ ol {
     margin-top: 89px;
 }
 
-.ol12 {
-    margin-left: 122px;
-    margin-right: 113px;
-}
+
 
 .div-in-div {
     display: flex;
@@ -263,9 +228,8 @@ ol {
 }
 
 .h2-page-three {
-
     margin-top: 179px;
-
+    margin-bottom: 15px;
 }
 
 .ul-three {
@@ -292,15 +256,11 @@ ol {
     margin-bottom: 20px;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .h2-page-four {
-
     margin-top: 230px;
     margin-bottom: 95px;
-
 }
 
 .h4-wrap-items {
@@ -310,16 +270,11 @@ ol {
     font-size: 30px;
     line-height: 130%;
     color: #000000;
-
-
-
 }
 
 .items {
     margin-left: 20px;
     width: 365px;
-
-
 }
 
 .p-wrap-items {
@@ -332,8 +287,7 @@ ol {
 }
 
 .h2-page-five {
-
-    margin: 65px 0px;
+    margin-bottom: 63px;
 }
 
 .ekaterina {
@@ -347,8 +301,7 @@ ol {
 .ekaterina-photo-in-div {
     display: flex;
     margin-left: 26px;
-
-
+    align-items: center;
 }
 
 .p-ekaterina-one {
@@ -362,8 +315,9 @@ ol {
     color: #000000;
 }
 
-.ekaterina-photo-in-div-second {
-    margin-left: 30px;
+.woman {
+    width: 190px;
+    height: 169px;
 }
 
 .p-ekaterina-two {
@@ -379,7 +333,7 @@ ol {
     width: 1440px;
     height: 780px;
     background: #EFEFEF;
-    padding: 35px 126px;
+    padding: 91px 331px 111px 122px;
     box-sizing: border-box;
 }
 
@@ -415,8 +369,6 @@ h2 {
     font-size: 80px;
     line-height: 101.38%;
     margin-bottom: 50px;
-
-
     color: #000000;
 }
 
@@ -441,8 +393,6 @@ h2 {
     font-size: 18px;
     line-height: 101.38%;
     color: #000000;
-
-
 }
 
 .bir {
@@ -459,13 +409,18 @@ h2 {
 }
 
 .footer-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 1440px;
     height: 390px;
     background: #000000;
+
+}
+
+.last-page-footer {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .icons-icons {
@@ -486,14 +441,9 @@ h2 {
     font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    /* or 25px */
     margin-top: 60px;
     margin-right: 147px;
-
-
-
     color: #FFFFFF;
-
     margin-right: 30px;
 }
 
@@ -508,10 +458,6 @@ h2 {
 
 .ana-blok {
     display: flex;
-
-
-
-
 }
 
 .footer-logo {
@@ -529,8 +475,10 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
-    color: #FFFFFF;
-    margin-bottom: 50px;
+    color: #ffffff;
+    margin-left: 121px;
+    margin-bottom: 25px;
+
 }
 
 .contact p {
