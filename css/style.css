@@ -9,21 +9,27 @@
     width: 80%;
     max-width: 1440px;
     margin: auto;
+    font-family: 'Roboto';
 }
 
-.first-page-first-section {
+.first-page-first-section,
+.ana-blok,
+.umumi,
+.navbar-menu,
+.first-section,
+.second-main,
+.ol1 {
     display: flex;
+}
+
+h2 {
+    font-size: 55px;
 }
 
 .page-logo {
     width: 112px;
     margin-bottom: 96px;
     margin-top: 21px;
-
-}
-
-.navbar-menu {
-    display: flex;
 }
 
 .navbar-items {
@@ -38,13 +44,8 @@
 }
 
 .navbar-p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 12px;
     line-height: 115%;
-    color: #000000;
-
 }
 
 .main-first-section {
@@ -59,7 +60,6 @@
 
 h1 {
     font-family: 'Roboto Slab';
-    font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
@@ -68,18 +68,9 @@ h1 {
 }
 
 .h1-under {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
     line-height: 150%;
     width: 414px;
     margin-top: 20px;
-
-}
-
-.first-section {
-    display: flex;
 }
 
 .image-right {
@@ -95,8 +86,6 @@ h1 {
     color: #ffffff;
     margin-bottom: 170px;
     margin-top: 39px;
-    box-sizing: border-box;
-
 }
 
 .for-box1 {
@@ -106,8 +95,6 @@ h1 {
 
 .box1-in {
     font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
     line-height: 130%;
     width: 430.59px;
@@ -117,40 +104,24 @@ h1 {
 }
 
 .box1-under {
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 130%;
     text-align: right;
     padding-right: 19px;
-
 }
 
 .second-page-h2-first {
     font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
     width: 365px;
-    color: #000000;
     margin-bottom: 50px;
 }
 
 .kurs {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     width: 662px;
-    color: #000000;
-}
-
-.second-main {
-    display: flex;
 }
 
 .group_24 {
@@ -158,7 +129,8 @@ h1 {
     margin-left: 164px;
     width: 314px;
 }
-.div-for-box{
+
+.div-for-box {
     display: flex;
     justify-content: center;
 }
@@ -171,36 +143,21 @@ h1 {
 }
 
 .ul-two h4 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 25px;
     line-height: 130%;
-    color: #000000;
 }
 
 .ul-two p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 130%;
-    color: #000000;
 }
 
 ol {
     list-style: none;
 }
 
-.ol1 {
-    display: flex;
-}
-
 .olh4 {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
     line-height: 130%;
     color: #1E4681;
 }
@@ -211,16 +168,12 @@ ol {
 }
 
 .h22 {
-
-    width: 667px;
     margin-top: 178px;
 }
 
 .vebinar {
     margin-top: 89px;
 }
-
-
 
 .div-in-div {
     display: flex;
@@ -233,17 +186,12 @@ ol {
 }
 
 .ul-three {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    width: 600px;
     font-size: 24px;
     line-height: 150%;
-    color: #000000;
-
 }
 
 .for-wrap {
-    width: 1271px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 121px;
@@ -264,12 +212,9 @@ ol {
 }
 
 .h4-wrap-items {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 30px;
     line-height: 130%;
-    color: #000000;
+    margin-bottom: 32px;
 }
 
 .items {
@@ -278,12 +223,8 @@ ol {
 }
 
 .p-wrap-items {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
     line-height: 130%;
-    color: #000000;
 }
 
 .h2-page-five {
@@ -306,100 +247,58 @@ ol {
 
 .p-ekaterina-one {
     padding: 40px 45px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
     line-height: 150%;
     width: 700px;
-    color: #000000;
-}
 
-.woman {
-    width: 190px;
-    height: 169px;
 }
 
 .p-ekaterina-two {
     font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
     font-size: 30px;
     line-height: 101.38%;
-    color: #000000;
+    font-weight: 700;
+
 }
 
 .main-page-five {
-    width: 1440px;
     height: 780px;
     background: #EFEFEF;
     padding: 91px 331px 111px 122px;
     box-sizing: border-box;
 }
 
-h2 {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-}
-
 .main-page-six {
-    width: 1440px;
     height: 780px;
     background: #9DC9C8;
 }
 
 .p-stoimost {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    color: #000000;
     margin-top: 54px;
 }
 
 .rubl {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 80px;
     line-height: 101.38%;
     margin-bottom: 50px;
-    color: #000000;
-}
-
-.umumi {
-    display: flex;
 }
 
 .h4-bir {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
     margin-bottom: 15px;
-    color: #000000;
 }
 
-.p-bir {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.p-bir, .ul-two-in-p, .ol1-p {
     font-size: 18px;
     line-height: 101.38%;
-    color: #000000;
 }
 
 .bir {
     width: 294px;
     margin-right: 70px;
     margin-top: 50px;
-
 }
 
 .main-last {
@@ -412,10 +311,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1440px;
     height: 390px;
     background: #000000;
-
 }
 
 .last-page-footer {
@@ -432,13 +329,9 @@ h2 {
     display: flex;
     margin-right: 147px;
     margin-bottom: 20px;
-
 }
 
 .contact {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
     margin-top: 60px;
@@ -453,16 +346,10 @@ h2 {
     justify-content: space-between;
     margin-top: 60px;
     margin-left: 121px;
-
-}
-
-.ana-blok {
-    display: flex;
 }
 
 .footer-logo {
     width: 115px;
-
 }
 
 .social-icons {
@@ -470,17 +357,33 @@ h2 {
 }
 
 .yekun {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
     color: #ffffff;
     margin-left: 121px;
     margin-bottom: 25px;
-
 }
 
 .contact p {
     margin-left: 22px;
+}
+
+.ul-two,
+.olh4,
+.h4-bir,
+.p-stoimost,
+.contact,
+.p-wrap-items,
+.ul-three,
+.div-wrap-h4 {
+    font-size: 25px;
+}
+
+.navbar-p,
+.h1-under,
+.ul-two-in-p,
+.p-ekaterina-one,
+.p-bir,
+.yekun {
+    font-size: 20px;
 }

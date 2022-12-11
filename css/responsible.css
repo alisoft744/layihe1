@@ -1,9 +1,5 @@
 @media (max-width: 830px) {
-    .for-center{
-        width: 80%;
-        max-width: 830px;
-        margin: auto;
-    }
+
     .page-logo {
         width: 52.19px;
         height: 30.75px;
@@ -51,6 +47,7 @@
     .box1 {
         width: 225.36px;
         height: 93.19px;
+        margin-bottom: 75px;
     }
 
     .box1-in {
@@ -63,10 +60,15 @@
     .box1-under {
         font-size: 10px;
         padding-right: 8px;
-
     }
 
     h2 {
+        font-size: 26px;
+    }
+    .h22{
+        margin-top: 76px;
+    }
+    .second-page-h2-first{
         font-size: 26px;
     }
 
@@ -91,7 +93,9 @@
     }
 
     .second-page-footer {
-        margin-top: 94px;
+        width: 400px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     .ul-two {
@@ -258,6 +262,7 @@
     }
     .for-wrap{
         margin-bottom: 47px;
+        align-items: center;
     }
     .h2-page-four {
         margin-top: 80px;
@@ -272,6 +277,13 @@
     }
     .vebinar {
         margin-top: 30px;
+    }
+    .ul-three{
+        width: 300px;
+    }
+    .div-wrap{
+        width: 150px;
+        margin-bottom: 10px;
     }
 
 
